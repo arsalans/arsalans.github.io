@@ -3,64 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arsalan Siddiqui - Architect/Senior Developer</title>
+    <title>Arsalan Siddiqui Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Arsalan Siddiqui</h1>
-        <p>Architect/Senior Developer</p>
-        <p>Milton, ON, Canada L9T 0X5</p>
-        <p>(416) 801-7646 | <a href="mailto:arsalan@i-architect.ca">arsalan@i-architect.ca</a></p>
-    </header>
-    <main>
-        <section>
-            <h2>Certifications</h2>
-            <ul>
-                <li>Sun Certified Enterprise Architect (SCEA)</li>
-                <li>Sun Certified Java Programmer (SCJP)</li>
-                <li>MDM (Product Information Management) Certified</li>
-                <li>Professional Scrum Master I (PSM I)</li>
+<header class="header">
+    <div class="container">
+        <h1 class="logo">Arsalan Siddiqui</h1>
+        <nav class="nav">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <p>Arsalan Siddiqui is a result-oriented, performance focused professional with over 20+ years of broad-based experience and visible achievements in high-technology solutions. He is looking to employ cutting edge technologies from Amazon, SAP, Oracle, IBM, Microsoft, Google and numerous 3rd party vendors in a challenging position that is commensurate with his analytical, design, development, QA and documentation skills.</p>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li>Extensive skills in various application architectures such as Microservices, client-server, monolithic and Service Oriented Architectures (SOA).</li>
+                <li>Experience in application design and development on various platforms including Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Linux, HP-UX, AIX, Solaris & Windows</li>
+                <li>Developed Enterprise level applications for various industry verticals using Spring Boot, Java, Node, Kubernetes, Docker, Kafka, RabbitMQ, MongoDB and many other technologies.</li>
+                <li>Designed and developed various lines of businesses using Guidewire offerings such as Policy Center and Claim Center with extensive experience in Gosu.</li>
+                <li>Experience in Agile (Scrum & Kanban), Test Driven Development (TDD) and Behavior Driven Development (BDD).</li>
+                <li>Designed & implemented various web-based applications using wireframes (Angular, SAP UIS, JavaScript, TypeScript) and various middleware and databases.</li>
             </ul>
-        </section>
-        <section>
-            <h2>Career Highlights</h2>
-            <ul>
-                <li>Over 20+ years of broad-based experience in high-technology solutions.</li>
-                <li>Experience in various application architectures such as Microservices, client-server, monolithic, and SOA.</li>
-                <li>Developed enterprise-level applications using Spring Boot, Java, Node, Kubernetes, Docker, Kafka, RabbitMQ, MongoDB, and more.</li>
-                <li>Extensive experience with cloud platforms including AWS, Microsoft Azure, and Google Cloud Platform.</li>
-                <li>Proficient in Agile (Scrum & Kanban), TDD, and BDD methodologies.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Employment Chronology</h2>
-            <div class="job">
-                <h3>Senior Software Developer - Aviva Canada, Markham, Canada</h3>
-                <p><strong>April 2023 to date</strong></p>
-                <h4>Projects:</h4>
-                <p><strong>My Portal</strong></p>
-                <p>Environment: Java 17, Spring Boot 3.x, Microservices (RESTful), Guidewire PolicyCenter, Guidewire BillingCenter, Mapstruct, Bitbucket, Docker, Kubernetes, Figma, Okta, Angular, Jenkins, Artifactory, AWS, Linux</p>
-                <ul>
-                    <li>Developed a proprietary library for communication with Guidewire through REST and RPC protocols.</li>
-                    <li>Utilized Mapstruct for mappings between Guidewire Edge classes and the domain model of the service.</li>
-                    <li>Designed and implemented microservices for retrieving policy & billing data from Guidewire.</li>
-                    <li>Spearheaded the development of a new portal application with adaptable themes.</li>
-                    <li>Engineered reusable Angular components and pages for My Portal application.</li>
-                </ul>
-                <p><strong>Commercial Insurance (Light Vehicle)</strong></p>
-                <p>Environment: Java 17, Spring Boot 3.x, Microservices (RESTful), MongoDB, Bitbucket, Docker, Kubernetes, Figma, Jenkins, Artifactory, Linux</p>
-                <ul>
-                    <li>Principal developer for creating core commercial policy microservice for underwriting light commercial vehicles.</li>
-                    <li>Optimized AutoPlus and MVR reporting for enhanced speed and resilience.</li>
-                    <li>Developed a dynamic validation rules framework based on provincial requirements.</li>
-                    <li>Created a gateway microservice using Spring Cloud Gateway for routing traffic.</li>
-                    <li>Implemented a Spring Boot parent project for all microservices.</li>
-                </ul>
-            </div>
-            <!-- Repeat the above structure for other jobs -->
-        </section>
-    </main>
-    <script src="script.js"></script>
-</body>
-</html>
+        </div>
+    </section>
+
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-container">
+                <div class="experience-item">
+                    <h3 class="experience-item-title">Senior Software Developer</h3>
+                    <p class="experience-item-company">Aviva Canada - Markham, Canada</p>
+                    <p class="experience-item-date">April 2023 to Present</p>
+                    <ul class="experience-item-list">
+                        <li>Project: My Portal</li>
+                        <li>Environment: Java 17, Spring Boot 3.x, Microservices (RESTful), Guidewire PolicyCenter, Guidewire BillingCenter, Mapstruct, Bitbucket, Docker, Kubernetes, Figma, Okta, Angular, Jenkins, Artifactory, AWS, Linux</li>
+                        <li>Developed a proprietary library facilitating communication with Guidewire through REST and RPC protocols.</li>
+                        <li>Utilized Mapstruct to establish mappings between Guidewire Edge classes for Auto and Property and the corresponding domain model of the service.</li>
+                        <li>Designed and implemented microservices responsible for retrieving policy & billing data from Guidewire and delivering it to the user interface.</li>
+                        <li>Spearheaded the development of a new portal application featuring adaptable themes, intended for utilization by diverse clientele.</li>
+                        <li>Engineered reusable Angular components and pages specifically tailored for integration within the My Portal application.</li>
+                        <li>Project: Commercial Insurance (Light Vehicle)</
