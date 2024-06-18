@@ -1,61 +1,84 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: #f4f4f4;
 }
 
-header {
-    background-color: #333;
+.header {
+    background: #333;
     color: #fff;
-    padding: 1em 0;
-    text-align: center;
+    padding: 1rem 0;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-header p {
-    margin: 0.2em 0;
-}
-
-main {
-    padding: 2em;
-    max-width: 800px;
+.container {
+    width: 80%;
     margin: auto;
+    overflow: hidden;
 }
 
-section {
-    margin-bottom: 2em;
+.logo {
+    float: left;
+    margin-top: 10px;
 }
 
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.5em;
+.nav {
+    float: right;
 }
 
-.job {
-    margin-bottom: 1.5em;
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
 }
 
-.job h3 {
-    margin: 0.2em 0;
+.main {
+    padding: 20px 0;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.skills-list,
+.experience-item-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li,
+.experience-item-list li {
+    margin: 5px 0;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item-title {
     font-size: 1.2em;
-    color: #333;
+    font-weight: bold;
 }
 
-.job p {
-    margin: 0.2em 0;
+.experience-item-company {
+    font-style: italic;
 }
 
-.job ul {
-    list-style-type: disc;
-    margin: 0;
-    padding-left: 1.2em;
+.experience-item-date {
+    color: #666;
 }
 
-.job ul li {
-    margin-bottom: 0.5em;
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
 }
