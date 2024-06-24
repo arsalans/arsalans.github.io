@@ -43,7 +43,7 @@ body {
 }
 
 .section-title {
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-bottom: 10px;
     color: darkblue;
 }
@@ -64,15 +64,22 @@ body {
 }
 
 .experience-item-title {
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
 .experience-item-company {
+    font-size: 1.2em;
     font-style: italic;
 }
 
+.experience-item-date {
+    font-size: 1.2em;
+    color: #666;
+}
+
 .experience-item-project-name {
+    font-size: 1.3em;
     font-weight: bold;
     color: darkblue;
 }
@@ -82,9 +89,6 @@ body {
     color: darkblue;
 }
 
-.experience-item-date {
-    color: #666;
-}
 
 .footer {
     background: #333;
